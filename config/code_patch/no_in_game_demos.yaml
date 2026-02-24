@@ -1,0 +1,11 @@
+gml_Object_oTitleScreens_Other_12:
+  - type: findreplacetrim
+    find: |-
+      if (timeUntilAttract && attractTimer >= timeUntilAttract)
+      {
+          global.attractMode = true;
+          global.numPlayers = 1;
+          scrSwitchState(STATE_START_GAME);
+          exit;
+      }
+    code: ""

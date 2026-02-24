@@ -1,0 +1,9 @@
+gml_Object_oLibrary_Other_15:
+  - type: findreplacetrim
+    find: |-
+      if (global.attractModeLibraryTimer++ >= global.AM_LIB_TIME)
+      {
+          event_user(15);
+          exit;
+      }
+    code: ""

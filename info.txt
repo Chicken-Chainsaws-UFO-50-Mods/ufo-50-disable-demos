@@ -1,2 +1,2 @@
-# ufo-50-no-demos
+Chicken&Chainsaws
 Prevents game demos/previews from auto-starting when idling on the UFO library screen and on game title screens.
